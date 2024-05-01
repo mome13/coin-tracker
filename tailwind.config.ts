@@ -11,6 +11,7 @@ const config: Config = {
       purple: '#7631FE',
       white: '#FFFFFF',
       gray: '#E0E0E0',
+      'gray-600': '#757575',
       transparent: 'transparent',
     },
     extend: {},
