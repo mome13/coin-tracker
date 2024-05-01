@@ -12,6 +12,25 @@ body {
   color: rgb(var(--foreground-rgb));
   background: var(--background-end-rgb);
 }
+/* for the sake of simplicity I didnt separate these classes */
+.input-reset {
+  background: #fff;
+}
+
+.input-reset::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 15px;
+  width: 15px;
+  background-image: url(http://localhost:3000/close-circle.svg);
+  background-size: 15px 15px;
+  cursor: pointer;
+}
+.input-reset::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
 
 @layer utilities {
   .text-balance {
